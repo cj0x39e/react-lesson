@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>React without node boilerplate</title>
+
+  <!--开发环境-->
+    <script src="https://cdn.bootcss.com/react/16.8.6/umd/react.development.js"></script>
+    <script src="https://cdn.bootcss.com/react-dom/16.8.6/umd/react-dom.development.js"></script>
+    <script src="https://cdn.bootcss.com/babel-standalone/6.26.0/babel.js"></script>
+  <!--/开发环境-->
+
+  <!--生产环境-->
+  <!--<script src="https://cdn.bootcss.com/react/16.8.6/umd/react.production.min.js"></script>-->
+  <!--<script src="https://cdn.bootcss.com/react-dom/16.8.6/umd/react-dom.production.min.js"></script>-->
+  <!--<script src="https://cdn.bootcss.com/babel-standalone/6.26.0/babel.min.js"></script>-->
+  <!--/生产环境-->
+
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+  function APP () {
+    const [text, setText] = React.useState('');
+    const [photoAdded, setPhotoAdded] = React.useState(false);
+
+    // 监听文本框值变化
+    const handleChange = function (e) {
+      setText(e.target.value);
+    };
+
+    // 计算用户还可以输入的字数
+    const remainingCharacters = function() {
+      if (photoAdded) {
+        return 140 - 23 - text.length;
+      } else {
+        return 140 - text.length;
+      }
+    };
+
+    // 添加照片逻辑
+    const togglePhoto = function () {
+      setPhotoAdded(!photoAdded);
+    };
+
+    return (
+      <div className="well clearfix">
+        <textarea className="form-control"
+                  onChange={handleChange}>
+        </textarea>
+        <br/>
+        <span>{ remainingCharacters() }</span>
+        <button className="btn btn-primary pull-right" disabled={text.length === 0 && !photoAdded}>
+          发微博
+        </button>
+        <button className="btn btn-default pull-right" onClick={togglePhoto}>
+          {photoAdded ? "✓ 已添加照片" : "添加照片" }
+        </button>
+      </div>
+    );
+  }
+
+  ReactDOM.render(
+    <APP/>,
+    document.getElementById('root')
+  );
+</script>
+</body>
+</html>
