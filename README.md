@@ -8,3 +8,5 @@
 
 - [class04 - React 其它概念（事件处理、条件渲染、表单等)](https://www.yuque.com/docs/share/f4d26738-018c-4746-94d7-1a599dfaa595)
 
+- [class05 - 马拉松计时器实战)](https://www.yuque.com/docs/share/a02ac875-be40-43cc-b586-f39b2d0fdc39)
+
