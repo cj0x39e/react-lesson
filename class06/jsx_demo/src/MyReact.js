@@ -26,16 +26,3 @@ MyReact.render = function (vnode) {
 export default MyReact;
 
 
-手写 JSX 思路：
-1. 初始化项目
-    1. mkdir jsx_demo
-    2. cd jsx_demo
-    3. yarn init -y  
-    4. yarn add webpack webpack-cli  webpack-dev-server html-webpack-plugin  -D
-    5. 安装包过程中新建 src/index.js index.html 文件
-    6. 添加 “scripts”: 
-        1. "start": "webpack-dev-server --config ./webpack.config.js --mode development --open
-2. 配置Babel
-    1. yarn add babel-loader @babel/core @babel/preset-env @babel/preset-react -D 
-    2. 新建 .babelrc ，配置 babel-loader
-3. 
