@@ -10,5 +10,5 @@
 
 - [class05 - 马拉松计时器实战](https://www.yuque.com/docs/share/a02ac875-be40-43cc-b586-f39b2d0fdc39)
 
-- [class06 - 深入理解 JSX)](https://www.yuque.com/docs/share/67a10cca-30f5-4bf8-b926-5dde9a15d016)
+- [class06 - 深入理解 JSX](https://www.yuque.com/docs/share/67a10cca-30f5-4bf8-b926-5dde9a15d016)
 
