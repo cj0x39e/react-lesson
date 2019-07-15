@@ -13,3 +13,5 @@
 - [class06 - 深入理解 JSX](https://www.yuque.com/docs/share/67a10cca-30f5-4bf8-b926-5dde9a15d016)
 
 - [class07 - 组件的高级用法](https://www.yuque.com/docs/share/afcf5ce2-c29b-4af5-96c4-5b4543bf686f)
+
+- [class08 - React API精讲](https://www.yuque.com/docs/share/d6c537de-0816-4116-93bd-99047131a390)
