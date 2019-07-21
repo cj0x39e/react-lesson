@@ -17,3 +17,5 @@
 - [class08 - React API精讲](https://www.yuque.com/docs/share/d6c537de-0816-4116-93bd-99047131a390k)
 
 - [class09 - React 性能优化](https://www.yuque.com/docs/share/71f8c27d-5277-4f8c-8744-14d8113609f0)
+
+- [class10 - React Hooks](https://www.yuque.com/docs/share/d5128b6c-205e-4d8c-ae7d-8304b9f25bfb)
