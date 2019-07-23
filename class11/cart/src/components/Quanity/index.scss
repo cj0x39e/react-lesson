@@ -1,0 +1,34 @@
+%btn {
+  height: 20px;
+  width: 20px;
+  display: block;
+  font-size: 18px;
+  color: #666;
+  line-height: 10px;
+  text-align: center;
+  font-family: '宋体';
+  border: 1px solid #ebebeb;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.quanity {
+  display: flex;
+  align-items: center;
+  >.reduce {
+    @extend %btn;
+  }
+  >.input {
+    width: 38px;
+    border: 1px solid #ebebeb;
+    padding: 4px 0 3px 0;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  >.add {
+    @extend %btn;
+  }
+}

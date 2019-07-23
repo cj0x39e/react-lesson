@@ -19,3 +19,5 @@
 - [class09 - React 性能优化](https://www.yuque.com/docs/share/71f8c27d-5277-4f8c-8744-14d8113609f0)
 
 - [class10 - React Hooks](https://www.yuque.com/docs/share/d5128b6c-205e-4d8c-ae7d-8304b9f25bfb)
+
+- [class11 - 购物车实战](https://www.yuque.com/docs/share/a0cc3054-c7eb-4dba-9094-77653623d39e)

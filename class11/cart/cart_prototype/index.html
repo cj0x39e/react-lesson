@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>我的购物车-汇银乐虎</title>
+<link rel="stylesheet" type="text/css" href="css/base.min.css" />
+<link rel="stylesheet" type="text/css" href="css/cart.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/template.js"></script>
+</head>
+<body>
+<!--main-->
+<div class="main">
+		<!--购物车-->
+		<div class="cart w">
+			<div class="c-hd">
+				<h2>我的购物车</h2>
+			</div>
+			<div class="c-con">
+				<table class="c-table">
+					<thead>
+						<tr>
+							<th class="c-th1 cl">
+								<div class="c-checkbox"><input type="checkbox" name="" id="" value="" />全选</div>
+								商品
+							</th>
+							<th class="c-th2">价格</th>
+							<th class="c-th2">优惠</th>
+							<th class="c-th2">
+								<!--地区选择下拉框-->
+								<!-- <div id="store-selector" class="pl" data-popup="click">
+									<div class="text popup" id="W-selector"><div>广东</div><i class="arrow"></i></div>
+									<div class="content popup-box" id="W-content" style="display: none;">
+										<div class="m pl">
+											<div class="mt">
+												 <ul class="tab">
+												 	<li class="cur"><a href="#"><em>北京</em><i class="icon"></i></a></li>
+												 	<li><a href="#"><em>朝阳区</em><i class="icon"></i></a></li>
+												 </ul>
+											</div>
+											<div class="mc">
+												<ul class="area-list">
+													<li><a href="#">北京</a></li>
+													<li><a href="#">上海</a></li>
+													<li><a href="#">成都</a></li>
+													<li><a href="#">广州</a></li>
+													<li><a href="#">天津</a></li>
+													<li><a href="#">广东</a></li>
+													<li><a href="#">广西</a></li>
+													<li><a href="#">北京</a></li>
+													<li><a href="#">上海</a></li>
+													<li><a href="#">成都</a></li>
+													<li><a href="#">广州</a></li>
+													<li><a href="#">天津</a></li>
+													<li><a href="#">广东</a></li>
+													<li><a href="#">广西</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="popup-close icon" style="display: none;"></div>
+							     </div> -->
+							<!--地区选择下拉框-->
+							</th>
+							<th class="c-th2">数量</th>
+							<th class="c-th2"> 操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!--单个商品循环体-->
+						<tr class="c-tr1">
+							<td class="c-td1 cl">
+								<div class="c-checkbox">
+									<input type="checkbox" name="" id="" value="" />
+								</div>
+								<div class="c-img">
+									<a href="##"><img src="img/ad-g-1.jpg" alt="" /></a>
+								</div>
+								<div class="c-name">
+									<a href="##">苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM</a>
+								</div>
+							</td>
+							<td>￥1999.00</td>
+							<td><span class="c-discount">已减20.00元</span></td>
+							<td>有货</td>
+							<td class="c-td5">
+								<div class="choose-amount">
+					   	   	   	  <a href="javascript:;" class="btn-reduce">-</a>
+					   	   	   	  <a href="javascript:;" class="btn-add">+</a>
+					   	   	   	  <input value="1" class="text" id="buy-num" onkeyup="HY.setAmount.modify(this);">
+					   	   	   </div>
+							</td>
+							<td><a href="##">删除</a></td>
+						</tr>
+						<!--/单个商品循环体-->
+						<!--组合商品循环体-->
+						<!-- <tr class="c-tr2">
+							<td class="c-td1">【组合购买】家庭影音 极致享受 完美装备</td>
+							<td>￥10583.00</td>
+							<td><span class="c-discount">已减100.00元</span></td>
+							<td colspan="3"></td>
+						</tr> -->
+						<tr class="c-tr1">
+							<td class="c-td1 cl">
+								<div class="c-checkbox">
+									<input type="checkbox" name="" id="" value="" />
+								</div>
+								<div class="c-img">
+									<a href="##"><img src="img/ad-g-1.jpg" alt="" /></a>
+								</div>
+								<div class="c-name">
+									<a href="##">苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM</a>
+								</div>
+							</td>
+							<td>￥1999.00</td>
+							<td></td>
+							<td>有货</td>
+							<td class="c-td5">
+								<div class="choose-amount">
+					   	   	   	  <a href="javascript:;" class="btn-reduce">-</a>
+					   	   	   	  <a href="javascript:;" class="btn-add">+</a>
+					   	   	   	  <input value="1" class="text" id="buy-num" onkeyup="HY.setAmount.modify(this);">
+					   	   	   </div>
+							</td>
+							<td><a href="##">删除</a></td>
+						</tr>
+						<tr class="c-tr1">
+							<td class="c-td1 cl">
+								<div class="c-checkbox">
+									<input type="checkbox" name="" id="" value="" />
+								</div>
+								<div class="c-img">
+									<a href="##"><img src="img/ad-g-1.jpg" alt="" /></a>
+								</div>
+								<div class="c-name">
+									<a href="##">苹果耳机</a>
+								</div>
+							</td>
+							<td>￥999.00</td>
+							<td>&nbsp;</td>
+							<td>有货</td>
+							<td class="c-td5">
+								<div class="choose-amount">
+					   	   	   	  <a href="javascript:;" class="btn-reduce">-</a>
+					   	   	   	  <a href="javascript:;" class="btn-add">+</a>
+					   	   	   	  <input value="1" class="text" id="buy-num" onkeyup="HY.setAmount.modify(this);">
+					   	   	   </div>
+							</td>
+							<td><a href="##">删除</a></td>
+						</tr>
+						<!--/组合商品循环体-->
+						<!--数据统计-->
+						<tr class="c-tr3">
+							<td class=" cl" colspan="4">
+								<div class="c-checkbox"><input type="checkbox" name="" id="" value="" />全选</div>
+								<div class="c-delete"><a href="##">删除已选商品<i class="icon i-delete"></i></a></div>
+								<!-- <div class="c-buy"><a href="##">继续购物<i class="icon i-arrow-l3"></i></a></div> -->
+							</td>
+							<td>
+								<div class="c-countnum">
+									<span class="c6">4</span>件商品
+								</div>
+							</td>
+							<td class="c-td6">
+								<div class="c-money">
+									<span>总计：￥12582.00</span><br />
+									<span class="c11">优惠：￥100.00</span>
+								</div>
+							</td>
+						</tr>
+						<!--/数据统计-->
+						<!--结算-->
+						<tr class="c-tr4">
+							<td colspan="5" class="c-td7"><span>总计（不含运费）：<b class="c6">￥12582.00</b></span></td>
+							<td>
+								<a href="cart_2.html" class="btn-submit">去结算</a>
+							</td>
+						</tr>
+						<!--/结算-->
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!--/购物车-->
+</div>
+<!--/main-->
+
+<script type="text/javascript" src="js/base.min.js"></script>
+</body>
+</html>
