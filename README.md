@@ -14,7 +14,7 @@
 
 - [class07 - 组件的高级用法](https://www.yuque.com/docs/share/afcf5ce2-c29b-4af5-96c4-5b4543bf686f)
 
-- [class08 - React API精讲](https://www.yuque.com/docs/share/d6c537de-0816-4116-93bd-99047131a390k)
+- [class08 - React API精讲](https://www.yuque.com/docs/share/d6c537de-0816-4116-93bd-99047131a390)
 
 - [class09 - React 性能优化](https://www.yuque.com/docs/share/71f8c27d-5277-4f8c-8744-14d8113609f0)
 
