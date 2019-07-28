@@ -24,4 +24,6 @@
 
 - [class12 - react-router5.x](https://www.yuque.com/docs/share/67c9eee1-dea8-461f-a067-fe35df7854b5)
 
+- [class13 - react-redux](https://www.yuque.com/docs/share/78cfb164-a01d-4ea2-a1c6-29820b5128f9)
+
 
