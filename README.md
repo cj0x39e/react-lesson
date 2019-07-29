@@ -26,4 +26,6 @@
 
 - [class13 - react-redux](https://www.yuque.com/docs/share/78cfb164-a01d-4ea2-a1c6-29820b5128f9)
 
+- [class14 - 购物车重构](https://www.yuque.com/docs/share/b44b7d9c-8982-40b4-98a9-24b910ebc2b1)
+
 
